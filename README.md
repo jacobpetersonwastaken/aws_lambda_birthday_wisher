@@ -1,2 +1,2 @@
 # aws_lambda_birthday_wisher
-Sends a birthday message if its someone's birthday!
+Using AWS Lambda and EventBridge (CloudWatchEvents) I check the Dynamo NoSQL db to see if its someones birthday. If it is, a notificaion would be sent out wishing that person a happy birthday.
